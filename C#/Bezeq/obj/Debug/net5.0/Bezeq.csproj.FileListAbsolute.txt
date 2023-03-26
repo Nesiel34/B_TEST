@@ -1,0 +1,16 @@
+C:\Users\Bat\source\repos\Bezeq\Bezeq\bin\Debug\net5.0\Bezeq.exe
+C:\Users\Bat\source\repos\Bezeq\Bezeq\bin\Debug\net5.0\Bezeq.deps.json
+C:\Users\Bat\source\repos\Bezeq\Bezeq\bin\Debug\net5.0\Bezeq.runtimeconfig.json
+C:\Users\Bat\source\repos\Bezeq\Bezeq\bin\Debug\net5.0\Bezeq.runtimeconfig.dev.json
+C:\Users\Bat\source\repos\Bezeq\Bezeq\bin\Debug\net5.0\Bezeq.dll
+C:\Users\Bat\source\repos\Bezeq\Bezeq\bin\Debug\net5.0\ref\Bezeq.dll
+C:\Users\Bat\source\repos\Bezeq\Bezeq\bin\Debug\net5.0\Bezeq.pdb
+C:\Users\Bat\source\repos\Bezeq\Bezeq\obj\Debug\net5.0\Bezeq.csproj.AssemblyReference.cache
+C:\Users\Bat\source\repos\Bezeq\Bezeq\obj\Debug\net5.0\Bezeq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bat\source\repos\Bezeq\Bezeq\obj\Debug\net5.0\Bezeq.AssemblyInfoInputs.cache
+C:\Users\Bat\source\repos\Bezeq\Bezeq\obj\Debug\net5.0\Bezeq.AssemblyInfo.cs
+C:\Users\Bat\source\repos\Bezeq\Bezeq\obj\Debug\net5.0\Bezeq.csproj.CoreCompileInputs.cache
+C:\Users\Bat\source\repos\Bezeq\Bezeq\obj\Debug\net5.0\Bezeq.dll
+C:\Users\Bat\source\repos\Bezeq\Bezeq\obj\Debug\net5.0\ref\Bezeq.dll
+C:\Users\Bat\source\repos\Bezeq\Bezeq\obj\Debug\net5.0\Bezeq.pdb
+C:\Users\Bat\source\repos\Bezeq\Bezeq\obj\Debug\net5.0\Bezeq.genruntimeconfig.cache

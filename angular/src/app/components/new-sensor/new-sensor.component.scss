@@ -1,0 +1,18 @@
+:host{
+  ::ng-deep {
+    .mat-radio-button {
+      margin-right: 1rem;
+    }
+    .mat-radio-label-content{
+      padding-right: 0 !important;
+    }
+  }
+
+}
+.status{
+  width:10px;
+  height: 10px;
+}
+img{
+  width:30px;
+}

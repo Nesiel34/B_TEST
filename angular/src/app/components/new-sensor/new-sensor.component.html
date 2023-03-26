@@ -1,0 +1,43 @@
+<form class="d-flex flex-column" (submit)="addSensor();$event.preventDefault()" [formGroup]="fg">
+  <mat-form-field appearance="fill">
+    <mat-label>שם התקן</mat-label>
+    <input matInput formControlName="name">
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>סוג התקן</mat-label>
+    <mat-select formControlName="Device">
+      <mat-option *ngFor="let sensor of devices" [value]="sensor">
+        <img src="../../../assets/sensors/{{sensor.Picture}}.png"/>
+        {{sensor.DeviceTypeHebrew}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>סטטוס</mat-label>
+    <mat-select formControlName="status">
+      <mat-option value="1">
+        <div class="d-flex align-items-center">
+          <span class="rounded-circle status bg-success"></span>
+          <span>תקין</span>
+        </div>
+
+
+      </mat-option>
+      <mat-option value="0">
+        <div class="d-flex align-items-center">
+          <span class="rounded-circle status bg-danger"></span>
+          <span>תקול</span>
+        </div>
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div class="d-flex justify-content-between mt-3">
+    <div>
+      <button class="btn btn-primary">אישור</button>
+    </div>
+    <div>
+      <button class="btn btn-secondary" type="button" (click)="close()">ביטול</button>
+    </div>
+  </div>
+</form>
+

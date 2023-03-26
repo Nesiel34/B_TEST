@@ -1,0 +1,31 @@
+<div class="d-flex align-self-center wrapImg mt-3">
+  <img class="card-img-top" src="../../../assets/sensors/{{sensor.Picture}}.png">
+</div>
+<div class="card-body">
+  <div class="text-center deviceTypeHebrew">{{sensor.DeviceTypeHebrew}}</div>
+  <div class="text-center deviceName">{{sensor.WebSiteDeviceName}}</div>
+  <button class="rounded-circle status d-block mx-auto mt-3" [ngClass]="sensor.ComponentOk==1?'bg-success':'bg-danger'" (click)="changeStatus()"></button>
+
+</div>
+<div class="pb-4">
+  <div class="row">
+    <div class="col-6">
+      צימוד
+    </div>
+    <div class="col-6 text-start">
+      <strong>
+        {{sensor.InstallDate|date:"dd.MM.yyyy"}}
+      </strong>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      דיווח אחרון
+    </div>
+    <div class="col-6 text-start">
+      <strong>
+        {{sensor.LastReportDate|date:"dd.MM.yyyy"}}
+      </strong>
+    </div>
+  </div>
+</div>
